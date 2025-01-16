@@ -26,7 +26,7 @@ public class Main {
                 default -> throw new Exception("Неверный оператор. Доступные операторы: +, -, *, /");
             }
 
-            return String.valueOf(result);
+            return Integer.toString(result);
         } catch (Exception e) {
             return "Ошибка: " +e.getMessage();
         }
